@@ -33,15 +33,15 @@
   表示する画像を定義
 */
 .slider .image:nth-of-type(1){
-  background-image: url(/img01/fv-1.png);
+  background-image: url(https://aaamix.github.io/coding/img01/fv-1.png);
 }
 .slider .image:nth-of-type(2){
   animation-delay: 5s;
-  background-image: url(/img01/fv--2.png);
+  background-image: url(https://aaamix.github.io/coding/img01/fv--2.png);
 }
 .slider .image:nth-of-type(3){
   animation-delay: 10s;
-  background-image: url(/img01/fv-bgi_02.png);
+  background-image: url(https://aaamix.github.io/coding/img01/fv-bgi_02.png);
 }
 
 /*
@@ -258,7 +258,7 @@ text-align: center;
   margin-top:150px;
   margin-bottom:0px;
   padding-bottom: 0px;
- /* background-image: url(/img01/works-bgi.png);
+ /* background-image: url(https://aaamix.github.io/coding/img01/works-bgi.png);
   background-size: cover;
   background-repeat: no-repeat;*/
 }
@@ -558,7 +558,7 @@ text-align: center;
   margin-top:500px;
   margin-bottom:0px;
   padding-bottom: 0px;
-  background-image:url(/img01/contact-bgi.png);
+  background-image:url(https://aaamix.github.io/coding/img01/contact-bgi.png);
   /*contact-bgi.png*/
   background-size: cover;
 }
@@ -662,7 +662,7 @@ text-align: center;
     font-size: 15px;
   }
   .navigation{
-    background-image:url(/img01/fv-1.png);
+    background-image:url(https://aaamix.github.io/coding/img01/fv-1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
