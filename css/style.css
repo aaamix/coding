@@ -558,7 +558,7 @@ text-align: center;
   margin-top:500px;
   margin-bottom:0px;
   padding-bottom: 0px;
-  background-image:url(/img01/contact-bgi.png);
+  background-image:url(./img01/contact-bgi.png);
   /*contact-bgi.png*/
   background-size: cover;
 }
