@@ -33,15 +33,15 @@
   表示する画像を定義
 */
 .slider .image:nth-of-type(1){
-  background-image: url(https://aaamix.github.io/coding/img01/fv-1.png);
+  background-image: url(/img01/fv-1.png);
 }
 .slider .image:nth-of-type(2){
   animation-delay: 5s;
-  background-image: url(https://aaamix.github.io/coding/img01/fv--2.png);
+  background-image: url(/img01/fv--2.png);
 }
 .slider .image:nth-of-type(3){
   animation-delay: 10s;
-  background-image: url(https://aaamix.github.io/coding/img01/fv-bgi_02.png);
+  background-image: url(/img01/fv-bgi_02.png);
 }
 
 /*
@@ -169,10 +169,12 @@ z-index    : 11;
   position:absolute;
   width:80%;
   top:106px;
+
   margin-left:80px;
 }
 .concept h1{
   font-size: 60px;
+  margin-top: 20%;
   letter-spacing: 3px;
   line-height: 24px;
   color: #282f35;
@@ -186,7 +188,7 @@ z-index    : 11;
   display:block;
   position:relative;    
   width:200px;
-  margin-top:50%;
+  margin-top:80%;
   margin-right:70%;
   background-color:black;
 }
@@ -194,17 +196,17 @@ z-index    : 11;
 .sub-concept{
    position:absolute;
     width:70%;
-    top:200px;
+    margin-top: 10%;
     text-align:center;
   }
 
 .sub-concept h2{
 
-  width: 600px;
-height: 95px;
+width: 600px;
+height: 90px;
 font-size: 30px;
 letter-spacing: 2px;
-line-height: 50px;
+line-height: 150%;
 color: #171717;
 font-weight: 700;
 font-family: "Noto Serif JP";
@@ -214,7 +216,7 @@ text-align: center;
 .img-concept{
   display:block;
   position:relative;
-  top:450px;
+  margin-top: 50%;
   right:0;
  
 }
@@ -224,7 +226,7 @@ text-align: center;
   position:relative;
   height:200px;
   width:400px;
-  top:450px;
+  margin-top: 50%;
   left:-20px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -243,7 +245,7 @@ text-align: center;
   font-weight: 800;
   font-family: "Noto Serif";
   height:100px;
-  margin-top: 40%;
+  margin-top: 5%;
   width:100%;
   float:right;
  }
@@ -253,14 +255,15 @@ text-align: center;
  display:flex;
   position:relative; 
   width:auto;
+  height: 50em;
   margin:0px;
   padding:0px; 
   margin-top:150px;
   margin-bottom:0px;
   padding-bottom: 0px;
- /* background-image: url(https://aaamix.github.io/coding/img01/works-bgi.png);
+  background-image: url(/img01/works-bgi.png);
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 .works_card{
   display:block;
@@ -272,7 +275,7 @@ text-align: center;
 }
 .block h1{
   display:block;
-  margin-top:65%;
+  margin-top:45%;
   width:100%;
   font-size: 60px;
   letter-spacing: 6px;
@@ -382,7 +385,7 @@ text-align: center;
 
 .btn-work{
   position: absolute;
-  top:65%;
+  top:75%;
   margin-left:45%;
   width: 235px;
   height: 59px;
@@ -436,8 +439,8 @@ text-align: center;
   width:auto;
   height:auto;
   margin: 0;
-  margin-top:60px;
-  margin-bottom:70px;
+  margin-top:10%;
+  margin-bottom:10%;
   padding:0;
   
   
@@ -558,7 +561,7 @@ text-align: center;
   margin-top:500px;
   margin-bottom:0px;
   padding-bottom: 0px;
-  background-image:url(https://aaamix.github.io/coding/img01/contact-bgi.png);
+  background-image:url(/img01/contact-bgi.png);
   /*contact-bgi.png*/
   background-size: cover;
 }
@@ -662,7 +665,7 @@ text-align: center;
     font-size: 15px;
   }
   .navigation{
-    background-image:url(https://aaamix.github.io/coding/img01/fv-1.png);
+    background-image:url(/img01/fv-1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
